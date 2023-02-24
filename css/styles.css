@@ -1,0 +1,243 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --white-color: #fff;
+    --accent-color: #4D5AE5;
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #2E2F42;
+    --accent-bg-color: #4D5AE5;
+    --button-bg-color: #404BBF;
+    --bg-light-color: #F4F4FD;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+}
+
+
+ul {
+    list-style: none;
+}
+.logo {
+    color: var(--primary-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+/* identical to box height, or 133% */
+}
+
+.logo > span {
+    color: var(--accent-color);
+}
+
+.site-nav a {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+/* identical to box height, or 150% */
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+.contacts a {
+    color: var(--secondary-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+/* identical to box height, or 150% */
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-color);
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--secondary-bg-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+/* or 107% */
+}
+
+/* Features */
+
+.features-title {
+    color: var(--primary-text-color);
+}
+
+.features-item {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+/* identical to box height, or 120% */
+}
+
+.features-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+/* or 150% */
+}
+
+/* About */
+.about-title {
+    color: var(--primary-text-color);
+}
+
+
+/* Team */
+.team {
+    background-color: var(--bg-light-color);
+    text-decoration: none;
+}
+
+.team-title {
+    color: var(--primary-text-color);
+}
+
+.team-item {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+/* identical to box height, or 120% */
+}
+
+.team-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+/* or 150% */
+}
+
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+/* identical to box height, or 111% */
+}
+
+
+/* Footer */
+.footer-page {
+    background-color: var(--secondary-bg-color);
+}
+.footer-page-text {
+    color: var(--white-color);
+}
+
+.logo-footer {
+    color: var(--white-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-footer > span {
+    color: var(--accent-color);
+}
+
+/* Portfolio */
+.link-portfolio {
+    font-style: normal;
+    text-decoration: none;
+}
+.list-portfolio-title {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2; 
+}
+
+.list-portfolio-description {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Button */
+
+.button.primary,
+.button.current,
+.button.secondary {
+    background-color: var(--accent-bg-color);
+    color: var(--white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button.primary:hover,
+.button.primary:focus {
+    background-color: var(--button-bg-color);
+    color: var(--white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.button.current {
+    background-color: var(--button-bg-color);
+    color: var(--white-color);
+    border-radius: 4px;
+}
+.button.current:hover,
+.button.current:focus {
+    background-color: var(--accent-bg-color);
+    color: var(--white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+
+.button.secondary {
+    background-color: var(--bg-light-color);
+    color: var(--accent-color);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    background-color: var(--accent-bg-color);
+    color: var(--white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+}
