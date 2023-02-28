@@ -45,6 +45,7 @@ h1, h2, h3, p {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-container {
@@ -336,7 +337,6 @@ h2 {
     font-size: 20px;
     line-height: 1.2; 
     padding: 0 16px;
-    margin-top: 32px;
     margin-bottom: 8px;
     box-sizing: border-box;
 }
@@ -427,7 +427,7 @@ h2 {
 
 .button.secondary:hover,
 .button.secondary:focus {
-    background-color: var(--accent-bg-color);
+    background-color: var(--button-bg-color);
     color: var(--white-color);
     font-family: 'Roboto';
     font-style: normal;
